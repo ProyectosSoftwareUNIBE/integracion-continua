@@ -26,7 +26,11 @@ public class Decimals {
     }
 
     public double transformDecilmalsToUnitrs() {
-        return 100*(this.decimal + this.hundredth);
+        return 100 * (this.decimal + this.hundredth);
+    }
+
+    public double subtract() {
+        return this.decimal - this.hundredth;
     }
 
 }
